@@ -1,0 +1,9 @@
+{
+	"manifest_version": 2,
+  "name": "Earthview",
+  "version": "0.0.1",
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+	},
+  "content_security_policy": "script-src 'self' http://localhost; object-src 'sha256-/LzxZZCN0YqeSff/J4EBdtuOn2O0NSITdBZkJFIk+Ko='"
+}
